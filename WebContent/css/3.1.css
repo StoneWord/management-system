@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url(../img/6.jpg) no-repeat;
+	
+	
+background-size:100% 100%;
+background-attachment:fixed;
+	
+}
+
+#top h1{
+	width: 100%;
+	height: 100px;
+	/*position: absolute;
+	top 10%;
+	left: 40%;*/
+	text-align: center;
+	line-height: 100px;	
+	font-size: 50px;
+	font-family: '楷体';
+}
+#top .B{
+/*position: absolute;
+	top 200px;
+	left: 35%;*/
+	margin-left: 200px;
+	margin-top: 20px;
+}
+#top .B .usertext{
+	width: 200px;
+	height: 30px;
+}
+
+#top .B .button{
+	width: 100px;
+	height: 33px;
+}
+
+#top {
+	width: 100%;
+	height: 170px;
+}

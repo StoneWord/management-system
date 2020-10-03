@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Logistics</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>nuc.ss.controller.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>QueryAllCourierServlet</servlet-name>
+    <servlet-class>nuc.ss.controller.QueryAllCourierServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QueryAllCourierServlet</servlet-name>
+    <url-pattern>/queryAllCourier</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>QuerySomeInforServlet</servlet-name>
+    <servlet-class>nuc.ss.controller.QuerySomeInforServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QuerySomeInforServlet</servlet-name>
+    <url-pattern>/querySomeInfor</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>nuc.ss.controller.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddCourierServlet</servlet-name>
+    <servlet-class>nuc.ss.controller.AddCourierServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddCourierServlet</servlet-name>
+    <url-pattern>/addCourier</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>AddInforServlet</servlet-name>
+    <servlet-class>nuc.ss.controller.AddInforServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddInforServlet</servlet-name>
+    <url-pattern>/addInformation</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UpdateCourierServlet</servlet-name>
+    <servlet-class>nuc.ss.controller.UpdateCourierServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateCourierServlet</servlet-name>
+    <url-pattern>/updateCourier</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>UpdateInformationServlet</servlet-name>
+    <servlet-class>nuc.ss.controller.UpdateInformationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateInformationServlet</servlet-name>
+    <url-pattern>/updateInformation</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>QueryCourierServlet</servlet-name>
+    <servlet-class>nuc.ss.controller.QueryCourierServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QueryCourierServlet</servlet-name>
+    <url-pattern>/queryCourier</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>QueryInformationServlet</servlet-name>
+    <servlet-class>nuc.ss.controller.QueryInformationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QueryInformationServlet</servlet-name>
+    <url-pattern>/queryInformation</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DeleteInforServlet</servlet-name>
+    <servlet-class>nuc.ss.controller.DeleteInforServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteInforServlet</servlet-name>
+    <url-pattern>/deleteInformation</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>DeleteCourierServlet</servlet-name>
+    <servlet-class>nuc.ss.controller.DeleteCourierServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteCourierServlet</servlet-name>
+    <url-pattern>/deleteCourier</url-pattern>
+  </servlet-mapping>
+</web-app>
